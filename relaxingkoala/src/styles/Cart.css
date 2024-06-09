@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+.cart-container h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	font-family: 'Merienda', cursive;
+	text-align: center;
+	color: #5c4033;
+	/* Dark Brown */
+}
+
+.cart-container {
+	padding: 20px;
+	max-width: 800px;
+	margin: auto;
+	background-color: #f8f9fa;
+	/* Light Cream */
+	border-radius: 10px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-container h2,
+.cart-container h3 {
+	text-align: center;
+	color: #5c4033;
+	/* Dark Brown */
+	margin-bottom: 20px;
+}
+
+.cart-container p {
+	color: #5c4033;
+	/* Dark Brown */
+}
+
+.cart-container ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.cart-container li {
+	border: 1px solid #d3a47e;
+	/* Wood Brown */
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #fff;
+	/* White */
+}
+
+.cart-container li strong {
+	display: block;
+	margin-bottom: 5px;
+	color: #5c4033;
+	/* Dark Brown */
+}
+
+.cart-container .ingredient-list,
+.cart-container .notes,
+.cart-container .decaf,
+.cart-container .milk,
+.cart-container .tea,
+.cart-container .iced-tea,
+.cart-container .quantity,
+.cart-container .total-price {
+	margin-bottom: 10px;
+}
+
+.cart-container .quantity {
+	display: flex;
+	align-items: center;
+}
+
+.cart-container .quantity button {
+	background-color: #5c4033;
+	/* Dark Brown */
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 5px 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+}
+
+.cart-container .quantity span {
+	margin: 0 10px;
+	font-size: 1.2em;
+	color: #5c4033;
+	/* Dark Brown */
+}
+
+.cart-container .quantity button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+.cart-container .clear-button {
+	background-color: #dc3545;
+	/* Red */
+	color: white;
+}
+
+.cart-container .form-group {
+	margin-bottom: 20px;
+}
+
+.cart-container .form-group label {
+	display: block;
+	margin-bottom: 5px;
+	color: #5c4033;
+	/* Dark Brown */
+}
+
+.cart-container .form-group input,
+.cart-container .form-group select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #d3a47e;
+	/* Wood Brown */
+	border-radius: 5px;
+}
+
+.cart-container .form-group input[type="tel"] {
+	width: calc(100% - 22px);
+}
+
+.cart-container .form-group input:focus {
+	border-color: #8bc34a;
+	/* Green */
+	outline: none;
+}
+
+.cart-container button {
+	background-color: #d3a47e;
+	/* Wood Brown */
+	color: #5c4033;
+	/* Dark Brown */
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-top: 20px;
+	display: block;
+	width: 100%;
+	transition: background-color 0.3s;
+}
+
+.cart-container button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+.cart-container button:hover {
+	background-color: #e8bb8b;
+	/* Slightly lighter caramel */
+}

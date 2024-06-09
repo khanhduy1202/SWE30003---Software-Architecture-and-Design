@@ -1,0 +1,100 @@
+.feedback-container {
+	width: 60%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+}
+
+.feedback-container h2 {
+	text-align: center;
+}
+
+.feedback-container form {
+	display: flex;
+	flex-direction: column;
+}
+
+.feedback-container form > div {
+	margin-bottom: 15px;
+}
+
+.feedback-container label {
+	font-weight: bold;
+}
+
+.feedback-container input[type="text"],
+.feedback-container textarea {
+	width: 95%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.feedback-container textarea {
+	height: 100px;
+}
+
+.feedback-container .rating {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.feedback-container .stars {
+	display: flex;
+	justify-content: center;
+}
+
+.feedback-container .star {
+	font-size: 1.5em;
+	cursor: pointer;
+	color: #ccc;
+	margin: 0 5px;
+}
+
+.feedback-container .star.filled {
+	color: #ffcc00;
+}
+
+.feedback-container button {
+	width: 100px;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	align-self: center;
+}
+
+.feedback-container button:hover {
+	background-color: #555;
+}
+
+.feedback-list {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 20px;
+}
+
+.feedback-item {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.feedback-item strong {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.feedback-item .stars {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 5px;
+}

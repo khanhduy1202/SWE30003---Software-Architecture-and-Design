@@ -1,0 +1,22 @@
+.nav-tabs {
+    display: flex;
+    list-style: none;
+    margin-bottom: 20px; 
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 10px; 
+  }
+  
+  .nav-link {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0; 
+    cursor: pointer;
+  }
+  
+  .nav-link.active {
+    background-color: #f0f0f0;
+    border-bottom-color: transparent; 
+  }

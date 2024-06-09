@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+.home-container {
+	text-align: center;
+	color: #ffffff;
+	/* Dark Brown */
+	font-family: 'Arial', sans-serif;
+}
+
+.banner {
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	border-radius: 10px;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.home-container h2 {
+	font-size: 6rem;
+	margin-bottom: 1rem;
+	font-family: 'Merienda', cursive;
+}
+
+p {
+	font-size: 1rem;
+	margin-bottom: 1.5rem;
+	color: #ffffff;
+	/* Dark Brown */
+}
+
+.home-button {
+	background-color: #cac3bc;
+	color: rgb(81, 77, 77);
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 1rem;
+	transition: background-color 0.3s;
+}
+
+.home-button:hover {
+	background-color: #6a9f34;
+	/* Darker Green */
+	color: #020202;
+}
+
+.content {
+	background-color: #8c8683;
+	/* Light Cream */
+	color: #5c4033;
+	/* Dark Brown */
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+	text-align: center;
+}

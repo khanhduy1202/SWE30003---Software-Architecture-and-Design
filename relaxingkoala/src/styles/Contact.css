@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+.contact-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f8f9fa;
+	/* Light Cream */
+	border-radius: 8px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+}
+
+.contact-container h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	font-family: 'Merienda', cursive;
+	color: #5c4033;
+	/* Dark Brown */
+	text-align: center;
+}
+
+.contact-title {
+	font-size: 2.5em;
+	margin-bottom: 20px;
+	color: #5c4033;
+	/* Dark Brown */
+}
+
+.contact-address,
+.contact-phone,
+.contact-email,
+.contact-hours {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+	color: #5c4033;
+	/* Dark Brown */
+}
+
+.contact-address strong,
+.contact-phone strong,
+.contact-email strong,
+.contact-hours strong {
+	color: #5c4033;
+	/* Dark Brown */
+}
+
+.contact-email a {
+	color: #5c4033;
+	text-decoration: none;
+}
+
+.contact-email a:hover {
+	text-decoration: underline;
+	color: #8bc34a;
+}
+
+.hours-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.hours-list li {
+	font-size: 1.1em;
+	color: #5c4033;
+	background: #fff3e6;
+	/* Darker Brown */
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 5px;
+}
+
+.contact-address,
+.contact-phone,
+.contact-email {
+	background: #fffefc;
+	/* Very Light Cream */
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.contact-address {
+	margin-bottom: 10px;
+}
+
+.contact-phone {
+	margin-bottom: 10px;
+}
+
+.contact-email {
+	margin-bottom: 10px;
+}
+
+.contact-hours {
+	margin-top: 20px;
+}

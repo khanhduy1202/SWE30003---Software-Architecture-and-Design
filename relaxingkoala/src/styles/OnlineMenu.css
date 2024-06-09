@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+.menu-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        /* Light Cream */
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu-container h1 {
+        font-size: 3rem;
+	margin-bottom: 1rem;
+	font-family: 'Merienda', cursive;
+        text-align: center;
+}
+
+.menu-title {
+        text-align: center;
+        font-size: 3em;
+        margin-bottom: 10px;
+        color: #5c4033;
+        /* Dark Brown */
+        font-family: 'Arial', sans-serif;
+}
+
+.menu-subtitle {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 30px;
+        color: #555;
+        font-family: 'Arial', sans-serif;
+}
+
+.menu-category {
+        margin-bottom: 40px;
+}
+
+.category-title {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #5c4033;
+        /* Dark Brown */
+        font-family: 'Arial', sans-serif;
+}
+
+.category-list {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+}
+
+.menu-item {
+        padding: 15px;
+        border: 1px solid #d3a47e;
+        /* Wood Brown */
+        border-radius: 8px;
+        background-color: #fff;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.menu-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+}
+
+.menu-item-details {
+        text-align: left;
+}
+
+.menu-item-name {
+        font-size: 1.5em;
+        margin-bottom: 5px;
+        color: #5c4033;
+        /* Dark Brown */
+}
+
+.menu-item-desc {
+        font-size: 1em;
+        color: #666;
+}
+
+.menu-item-price {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #5c4033;
+        /* Dark Brown */
+}
